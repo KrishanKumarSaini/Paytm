@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://.mongodb.net/paytm"
+  "mongodb+srv://<admin/pass>.mongodb.net/paytm"
 );
 
 // Create a Schema for Users

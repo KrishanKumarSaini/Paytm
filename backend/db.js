@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://admin:201012@cluster0.jhnsqzk.mongodb.net/paytm"
+  "mongodb+srv://.mongodb.net/paytm"
 );
 
 // Create a Schema for Users
